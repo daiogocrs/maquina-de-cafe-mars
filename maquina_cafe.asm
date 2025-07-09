@@ -10,8 +10,8 @@ leite:     .word 20
 chocolate: .word 20
 acucar:    .word 20
 
-# --- DADOS PARA PREÇO ---
-precos_base:   .word 200, 300, 400 # Preços em centavos para Cafe, Leite, Mocha
+# --- DADOS PARA PREï¿½O ---
+precos_base:   .word 200, 300, 400 # Preï¿½os em centavos para Cafe, Leite, Mocha
 adicional_gde: .word 150           # Adicional para tamanho grande em centavos
 
 # Mensagens (ASCII)
@@ -54,7 +54,7 @@ zero_str:       .asciiz "0"
 # ROTINA PRINCIPAL
 #=====================================================================
 main:
-    jal inicializar_estoques
+    # jal inicializar_estoques
     jal inicializar_contador
 
 loop_menu_principal:
